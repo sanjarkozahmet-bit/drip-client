@@ -12,3 +12,4 @@ openapi-generator-cli generate -i ../drip-backend/docs/swagger.yaml -g typescrip
 ```bash
 openapi-generator generate -i ../drip-backend/docs/swagger.yaml -g go -o drip-go --additional-properties=generateInterfaces=true --additional-properties=isGoSubmodule=true --additional-properties=packageName=drip
 ```
+ 
